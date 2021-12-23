@@ -1,0 +1,146 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+header{
+    background: #5CBAFF;
+    padding: 15px 0;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+header nav{
+    width: 50%;
+    margin: auto;
+
+}
+
+header nav ul{
+ display: flex;
+ list-style: none;
+ justify-content: space-between;
+ align-items: center;
+}
+
+header nav ul li a{
+ text-decoration: none;
+font-size: 16px;
+color: white;
+text-transform: uppercase;
+
+} 
+
+header nav ul li a:hover{
+    color: orangered;
+
+}
+
+
+header nav ul a img{
+
+    margin-top: 5px;
+}
+
+.content{
+    display: flex;
+    height: 86vh;
+    overflow: hidden;
+
+}
+
+.feature{
+    width: 40%;
+    background: #5CBAFF;
+    text-align: center;
+
+}
+
+.feature img{
+    width: 80%;
+
+
+}
+
+.contact_form{
+    width: 60%;
+    background: #0093FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact{
+    width: 30%;
+    /* background: white; */
+
+
+
+}
+
+.contact h1{
+color: white;
+font-size: 21px;
+
+
+}
+
+.contact p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+
+}
+
+
+.contact h5{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+
+}
+
+.contact form{
+
+
+
+}
+
+.contact form input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 10px;
+    border: none;
+    background: transparent;
+    background: white;
+
+
+}
+
+.contact form input[type="submit"]{
+
+    width: auto;
+    padding: 0;
+    padding: 10px 20px;
+
+}
+
+.contact form input:focus{
+   
+outline: 0;
+
+
+}
+
+
+
+
+
+
+
+
+
